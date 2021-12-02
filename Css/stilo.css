@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../imagens/av2.jpg");
+    background-position: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    border:1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(255,255,255,0.01);
+    color: white;
+    outline: none;
+}
+
+div#corpologin{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: steelblue;
+    opacity: 80%;
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpologin-cad{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: steelblue;
+    opacity: 80%;
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+
+div#corpologin h1,div#corpologin-cad h1{
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    margin-top: 7px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+input[type=submit]{
+    margin: 0 auto;
+    width: 250px;
+    background-color: #07091d;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+:-ms-input-placeholder{
+    color: #fff;
+}
