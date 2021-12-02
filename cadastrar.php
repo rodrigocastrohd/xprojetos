@@ -29,7 +29,9 @@ require_once 'classes/usuarios.php';
  
  // verificar se o usuario clicou no botao
 
- if(isset($_POST['nome'])){
+ if(!isset($_POST['nome'])){
+     return;
+ }
 
      $nome           = addslashes($_POST['nome']);
      $telefone       = addslashes($_POST['telefone']);
@@ -58,12 +60,9 @@ require_once 'classes/usuarios.php';
            }else{
                echo "erro".$u->$mserro();
             }
-
-         }else{
-             echo "preencha todos os dados";
-         }
+        }
   
-}
+
 
 ?>
     </body>
